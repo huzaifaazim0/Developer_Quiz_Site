@@ -1349,6 +1349,186 @@ const sqlQuiz = [
     Explanation:
       "Boyce-Codd is the most normalized form and so it has better data integrity and less duplicate data compared to others",
     Link: "https://www.freecodecamp.org/news/a-beginners-guide-to-sql/#chapter9databasenormalization"
+  },
+  {
+    "Question": "What is the purpose of the SQL GROUP BY clause?",
+    "Answer": "To group rows that have the same values into summary rows",
+    "Distractor1": "To sort the rows in ascending order",
+    "Distractor2": "To filter rows before aggregation",
+    "Distractor3": "To delete duplicate rows from a table",
+    "Explanation": "The GROUP BY clause is used to group rows that have the same values into summary rows, like 'finding the total sales per day'.",
+    "Link": "https://www.sqlshack.com/sql-group-by-statement-and-aggregate-functions/"
+  },
+  {
+    "Question": "What does the SQL ORDER BY clause do?",
+    "Answer": "Sorts the result set in ascending or descending order",
+    "Distractor1": "Filters the result set based on specified conditions",
+    "Distractor2": "Combines the result sets of two or more SELECT statements",
+    "Distractor3": "Joins tables based on specified columns",
+    "Explanation": "The ORDER BY clause is used to sort the result set in ascending or descending order based on one or more columns.",
+    "Link": "https://www.sqlservertutorial.net/sql-server-basics/sql-server-order-by/"
+  },
+  {
+    "Question": "What is the SQL LIKE operator used for?",
+    "Answer": "To search for a specified pattern in a column",
+    "Distractor1": "To perform arithmetic calculations",
+    "Distractor2": "To join tables based on a common column",
+    "Distractor3": "To filter rows based on aggregate functions",
+    "Explanation": "The SQL LIKE operator is used to search for a specified pattern in a column. It is often used with wildcard characters.",
+    "Link": "https://www.sqlservertutorial.net/sql-server-basics/sql-server-like-operator/"
+  },
+  {
+    "Question": "What does the SQL COUNT() function do?",
+    "Answer": "Returns the number of rows that match a specified condition",
+    "Distractor1": "Returns the average value of a numeric column",
+    "Distractor2": "Returns the first value in a sorted result set",
+    "Distractor3": "Returns the maximum value in a column",
+    "Explanation": "The COUNT() function is used to return the number of rows that match a specified condition.",
+    "Link": "https://www.sqlservertutorial.net/sql-server-aggregate-functions/sql-server-count-function/"
+  },
+  {
+    "Question": "What is the purpose of SQL NULL values?",
+    "Answer": "To represent missing or unknown data",
+    "Distractor1": "To enforce uniqueness in a column",
+    "Distractor2": "To indicate the primary key of a table",
+    "Distractor3": "To store default values in a column",
+    "Explanation": "NULL values in SQL represent missing or unknown data. They can be used to indicate that a data item is not applicable or that its value is unknown.",
+    "Link": "https://www.sqlservertutorial.net/sql-server-basics/sql-server-null-values/"
+  },
+  {
+    "Question": "What does the SQL UPDATE statement do?",
+    "Answer": "Modifies existing records in a table",
+    "Distractor1": "Deletes records from a table",
+    "Distractor2": "Inserts new records into a table",
+    "Distractor3": "Combines the result sets of two or more SELECT statements",
+    "Explanation": "The SQL UPDATE statement is used to modify existing records in a table based on specified conditions.",
+    "Link": "https://www.sqlservertutorial.net/sql-server-basics/sql-server-update/"
+  },
+  {
+    "Question": "What is a SQL constraint?",
+    "Answer": "A rule that limits the values in a database to maintain data integrity",
+    "Distractor1": "A data type used to store date and time values",
+    "Distractor2": "A function that returns a unique value based on the current date and time",
+    "Distractor3": "A clause used to join tables based on a common column",
+    "Explanation": "A SQL constraint is a rule that limits the values that can be placed in a column or combination of columns. Constraints enforce data integrity and are used to prevent the entry of invalid data into a database.",
+    "Link": "https://www.sqlservertutorial.net/sql-server-basics/sql-server-constraints/"
+  },
+  {
+    "Question": "What does the SQL DISTINCT keyword do?",
+    "Answer": "Returns unique values in a column or combination of columns",
+    "Distractor1": "Sorts the result set in ascending order",
+    "Distractor2": "Filters the result set based on specified conditions",
+    "Distractor3": "Groups rows that have the same values into summary rows",
+    "Explanation": "The DISTINCT keyword is used to return unique values in a column or combination of columns.",
+    "Link": "https://www.sqlservertutorial.net/sql-server-basics/sql-server-distinct/"
+  },
+  {
+    "Question": "What is a SQL view?",
+    "Answer": "A virtual table based on the result of an SQL statement",
+    "Distractor1": "A table that stores temporary data for a specific session",
+    "Distractor2": "A constraint used to ensure data uniqueness in a column or combination of columns",
+    "Distractor3": "A function used to perform calculations on numeric data",
+    "Explanation": "A SQL view is a virtual table based on the result of an SQL statement. It does not store data itself but rather retrieves data from the underlying tables whenever queried.",
+    "Link": "https://www.sqlservertutorial.net/sql-server-views/"
+  },
+  {
+    "Question": "What does the SQL BETWEEN operator do?",
+    "Answer": "Selects values within a specified range",
+    "Distractor1": "Filters rows based on a condition",
+    "Distractor2": "Sorts the result set in ascending order",
+    "Distractor3": "Groups rows that have the same values into summary rows",
+    "Explanation": "The SQL BETWEEN operator is used to select values within a specified range.",
+    "Link": "https://www.sqlservertutorial.net/sql-server-basics/sql-server-between-operator/"
+  },
+  {
+    "Question": "What is the purpose of the SQL UNION operator?",
+    "Answer": "To combine the result sets of two or more SELECT statements",
+    "Distractor1": "To filter rows based on specified conditions",
+    "Distractor2": "To sort the result set in ascending order",
+    "Distractor3": "To group rows that have the same values into summary rows",
+    "Explanation": "The SQL UNION operator is used to combine the result sets of two or more SELECT statements into a single result set.",
+    "Link": "https://www.sqlservertutorial.net/sql-server-basics/sql-server-union/"
+  },
+  {
+    "Question": "What does the SQL JOIN clause do?",
+    "Answer": "Combines rows from two or more tables based on a related column between them",
+    "Distractor1": "Filters rows based on specified conditions",
+    "Distractor2": "Sorts the result set in ascending order",
+    "Distractor3": "Groups rows that have the same values into summary rows",
+    "Explanation": "The SQL JOIN clause is used to combine rows from two or more tables based on a related column between them.",
+    "Link": "https://www.sqlservertutorial.net/sql-server-basics/sql-server-joins/"
+  },
+  {
+    "Question": "What is the purpose of the SQL WHERE clause?",
+    "Answer": "Filters rows based on specified conditions",
+    "Distractor1": "Groups rows that have the same values into summary rows",
+    "Distractor2": "Combines the result sets of two or more SELECT statements",
+    "Distractor3": "Sorts the result set in ascending order",
+    "Explanation": "The SQL WHERE clause is used to filter rows from a result set based on specified conditions.",
+    "Link": "https://www.sqlservertutorial.net/sql-server-basics/sql-server-where/"
+  },
+  {
+    "Question": "What is the purpose of the SQL INSERT INTO statement?",
+    "Answer": "Adds new records to a table",
+    "Distractor1": "Deletes records from a table",
+    "Distractor2": "Modifies existing records in a table",
+    "Distractor3": "Combines the result sets of two or more SELECT statements",
+    "Explanation": "The SQL INSERT INTO statement is used to add new records (rows) to a table.",
+    "Link": "https://www.sqlservertutorial.net/sql-server-basics/sql-server-insert-into/"
+  },
+  {
+    "Question": "What is the purpose of the SQL DELETE statement?",
+    "Answer": "Removes existing records from a table",
+    "Distractor1": "Adds new records to a table",
+    "Distractor2": "Modifies existing records in a table",
+    "Distractor3": "Combines the result sets of two or more SELECT statements",
+    "Explanation": "The SQL DELETE statement is used to remove existing records (rows) from a table based on specified conditions.",
+    "Link": "https://www.sqlservertutorial.net/sql-server-basics/sql-server-delete/"
+  },
+  {
+    "Question": "What is the purpose of the SQL TRUNCATE TABLE statement?",
+    "Answer": "Removes all records from a table",
+    "Distractor1": "Deletes the table structure",
+    "Distractor2": "Modifies the data types of columns in a table",
+    "Distractor3": "Combines the result sets of two or more SELECT statements",
+    "Explanation": "The SQL TRUNCATE TABLE statement is used to remove all records (rows) from a table, while maintaining its structure.",
+    "Link": "https://www.sqlservertutorial.net/sql-server-basics/sql-server-truncate-table/"
+  },
+  {
+    "Question": "What is the purpose of the SQL ALTER TABLE statement?",
+    "Answer": "Modifies the structure of a table",
+    "Distractor1": "Deletes all records from a table",
+    "Distractor2": "Adds a new table to the database",
+    "Distractor3": "Combines the result sets of two or more SELECT statements",
+    "Explanation": "The SQL ALTER TABLE statement is used to modify the structure of an existing table, such as adding, modifying, or dropping columns.",
+    "Link": "https://www.sqlservertutorial.net/sql-server-basics/sql-server-alter-table/"
+  },
+  {
+    "Question": "What does the SQL HAVING clause do?",
+    "Answer": "Filters groups based on specified conditions",
+    "Distractor1": "Filters rows based on specified conditions",
+    "Distractor2": "Combines the result sets of two or more SELECT statements",
+    "Distractor3": "Sorts the result set in ascending order",
+    "Explanation": "The SQL HAVING clause is used to filter groups that result from a GROUP BY clause based on specified conditions.",
+    "Link": "https://www.sqlservertutorial.net/sql-server-basics/sql-server-having/"
+  },
+  {
+    "Question": "What does the SQL AVG() function do?",
+    "Answer": "Calculates the average value of a numeric column",
+    "Distractor1": "Returns the number of rows that match a specified condition",
+    "Distractor2": "Returns the maximum value in a column",
+    "Distractor3": "Returns the first value in a sorted result set",
+    "Explanation": "The SQL AVG() function is used to calculate the average value of a numeric column in a result set.",
+    "Link": "https://www.sqlservertutorial.net/sql-server-aggregate-functions/sql-server-avg-function/"
+  },
+  {
+    "Question": "What does the SQL MAX() function do?",
+    "Answer": "Returns the maximum value in a column",
+    "Distractor1": "Calculates the average value of a numeric column",
+    "Distractor2": "Returns the number of rows that match a specified condition",
+    "Distractor3": "Returns the first value in a sorted result set",
+    "Explanation": "The SQL MAX() function is used to return the maximum value in a column of a result set.",
+    "Link": "https://www.sqlservertutorial.net/sql-server-aggregate-functions/sql-server-max-function/"
   }
 ];
 
